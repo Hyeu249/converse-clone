@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/converse-clone/static/css/main.ce11049f.chunk.css",
+    "main.css": "/converse-clone/static/css/main.72ed8089.chunk.css",
     "main.js": "/converse-clone/static/js/main.54b5e9f0.chunk.js",
     "main.js.map": "/converse-clone/static/js/main.54b5e9f0.chunk.js.map",
     "runtime-main.js": "/converse-clone/static/js/runtime-main.cda3e58a.js",
@@ -8,7 +8,7 @@
     "static/js/2.b497d502.chunk.js": "/converse-clone/static/js/2.b497d502.chunk.js",
     "static/js/2.b497d502.chunk.js.map": "/converse-clone/static/js/2.b497d502.chunk.js.map",
     "index.html": "/converse-clone/index.html",
-    "static/css/main.ce11049f.chunk.css.map": "/converse-clone/static/css/main.ce11049f.chunk.css.map",
+    "static/css/main.72ed8089.chunk.css.map": "/converse-clone/static/css/main.72ed8089.chunk.css.map",
     "static/js/2.b497d502.chunk.js.LICENSE.txt": "/converse-clone/static/js/2.b497d502.chunk.js.LICENSE.txt",
     "static/media/Account-login-ava.c443fac0.png": "/converse-clone/static/media/Account-login-ava.c443fac0.png",
     "static/media/CartModal.css": "/converse-clone/static/media/arial.9098343c.ttf",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.cda3e58a.js",
     "static/js/2.b497d502.chunk.js",
-    "static/css/main.ce11049f.chunk.css",
+    "static/css/main.72ed8089.chunk.css",
     "static/js/main.54b5e9f0.chunk.js"
   ]
 }
