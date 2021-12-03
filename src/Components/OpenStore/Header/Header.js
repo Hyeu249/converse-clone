@@ -1,13 +1,22 @@
 import "./Header.css";
 import flag from "../../../img/Logo/silkVietnam.png";
+import { useNavigate } from "react-router-dom";
 
 function Header() {
+  const navigate = useNavigate();
+
   return (
     <div className="header">
       <div className="button_li">
-        <a href="/">
-          <img src={flag} htmlFor="i3" alt="" className="flagVN" />
-        </a>
+        <img
+          src={flag}
+          htmlFor="i3"
+          alt=""
+          className="flagVN"
+          onClick={() => navigate("/")}
+          style={{ cursor: "pointer" }}
+        />
+
         <div className="logo font-3">
           <div className="decoration" htmlFor="i3">
             VI

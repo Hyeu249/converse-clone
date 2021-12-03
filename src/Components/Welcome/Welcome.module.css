@@ -328,6 +328,7 @@
 /* a / hover-underline / country */
 
 .hover-underline:hover {
+  cursor: pointer;
   text-decoration-line: underline;
   color: rgb(179, 179, 179);
 }
