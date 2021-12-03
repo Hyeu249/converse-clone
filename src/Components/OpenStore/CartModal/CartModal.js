@@ -17,6 +17,7 @@ function CartModal({ isBuy, setIsBuy }) {
     shipPrice = "Free";
   } else {
     textIsFreeShip = `Spend an extra $${99 - totalPrice}.00 to ship for free`;
+    shipPrice = "$2.00";
   }
 
   return (
