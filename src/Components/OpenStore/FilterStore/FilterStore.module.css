@@ -43,11 +43,10 @@
   height: 100%;
   outline: none;
   border: none;
+  background-clip: content-box;
+  padding-left: 70px;
 }
 @media (max-width: 950px) {
-  .filterStore_sort > div {
-    display: none;
-  }
   .filterStore_sort > select {
     padding-left: 0;
   }

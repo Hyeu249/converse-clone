@@ -8,14 +8,16 @@ import { useState } from "react";
 
 function OpenStore() {
   const [isBuy, setIsBuy] = useState([{}, false]);
+  const [sortPrice, setSortPrice] = useState();
+
   return (
     <div>
       <Header />
       <Navbar />
       <TitleStore />
-      <FilterStore />
+      <FilterStore sortPrice={sortPrice} setSortPrice={setSortPrice} />
       <CartModal isBuy={isBuy} setIsBuy={setIsBuy} />
-      <Shoes setIsBuy={setIsBuy} />
+      <Shoes sortPrice={sortPrice} setIsBuy={setIsBuy} />
     </div>
   );
 }

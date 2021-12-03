@@ -8,7 +8,7 @@ const alotOfShoes = [
     backImage:
       "https://www.converse.com/dw/image/v2/BCZC_PRD/on/demandware.static/-/Sites-cnv-master-catalog/default/dwf1702069/images/d_08/M7652_D_08X1.jpg?sw=406",
     productName: "Chuck Taylor All Star",
-    price: 55,
+    price: 60,
     productGender: "UNISEX LOW TOP SHOE",
     colorAvailable: 13,
     color: "Optical White",

@@ -3,13 +3,18 @@ import { Fragment } from "react";
 import classes from "./Shoes.module.css";
 import alotOfShoes from "./shoesDatabase";
 
-function Shoes({ setIsBuy }) {
+function Shoes({ setIsBuy, sortPrice }) {
+  let shoes = alotOfShoes;
+  if (sortPrice === "low")
+    shoes = alotOfShoes.sort((a, b) => a.price - b.price);
+  if (sortPrice === "high")
+    shoes = alotOfShoes.sort((a, b) => b.price - a.price);
   return (
     <Fragment>
       <div className="grid">
         <div className="row l-9 m-10 c-11 margin_auto column">
           <div className={classes.grabShoesItems}>
-            {alotOfShoes.map((shoes) => (
+            {shoes.map((shoes) => (
               <ShoesItem
                 key={shoes.id}
                 shoes={shoes}

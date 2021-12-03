@@ -1,7 +1,7 @@
 import { FilterIcon } from "../../../icons/icons";
 import classes from "./FilterStore.module.css";
 
-function FilterStore() {
+function FilterStore({ sortPrice, setSortPrice }) {
   return (
     <div className={classes.filterStore}>
       <div className={classes.filterStore_filter}>
@@ -11,11 +11,11 @@ function FilterStore() {
       <div className={classes.filterStore_results}>35 Results</div>
 
       <div className={classes.filterStore_sort}>
-        <div>Sort By:</div>
-        <select>
-          <option value="1"> </option>
-          <option value="1">Newest to Oldest</option>
-          <option value="2">Price Low to High</option>
+        <div style={sortPrice ? { display: "none" } : {}}>Sort By:</div>
+        <select onChange={(e) => setSortPrice(e.target.value)}>
+          <option value=""></option>
+          <option value="low">Price Low to High</option>
+          <option value="high">Price High to Low</option>
         </select>
 
         {/* <SeeMoreIcon /> */}
