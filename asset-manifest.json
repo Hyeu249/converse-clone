@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/converse-clone/static/css/main.a29f450a.chunk.css",
+    "main.js": "/converse-clone/static/js/main.ed170d8a.chunk.js",
+    "main.js.map": "/converse-clone/static/js/main.ed170d8a.chunk.js.map",
+    "runtime-main.js": "/converse-clone/static/js/runtime-main.cda3e58a.js",
+    "runtime-main.js.map": "/converse-clone/static/js/runtime-main.cda3e58a.js.map",
+    "static/js/2.a8d5fa51.chunk.js": "/converse-clone/static/js/2.a8d5fa51.chunk.js",
+    "static/js/2.a8d5fa51.chunk.js.map": "/converse-clone/static/js/2.a8d5fa51.chunk.js.map",
+    "index.html": "/converse-clone/index.html",
+    "static/css/main.a29f450a.chunk.css.map": "/converse-clone/static/css/main.a29f450a.chunk.css.map",
+    "static/js/2.a8d5fa51.chunk.js.LICENSE.txt": "/converse-clone/static/js/2.a8d5fa51.chunk.js.LICENSE.txt",
+    "static/media/Account-login-ava.c443fac0.png": "/converse-clone/static/media/Account-login-ava.c443fac0.png",
+    "static/media/CartModal.css": "/converse-clone/static/media/arial.9098343c.ttf",
+    "static/media/Header.css": "/converse-clone/static/media/Hover-4.0e9e863e.jpg",
+    "static/media/Heart-icon.1eeee6d4.png": "/converse-clone/static/media/Heart-icon.1eeee6d4.png",
+    "static/media/Icon-Search-2.6ab300b1.png": "/converse-clone/static/media/Icon-Search-2.6ab300b1.png",
+    "static/media/convease-logo.959dc37e.png": "/converse-clone/static/media/convease-logo.959dc37e.png",
+    "static/media/convease2.logo.495699db.png": "/converse-clone/static/media/convease2.logo.495699db.png",
+    "static/media/silkVietnam.9522e239.png": "/converse-clone/static/media/silkVietnam.9522e239.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cda3e58a.js",
+    "static/js/2.a8d5fa51.chunk.js",
+    "static/css/main.a29f450a.chunk.css",
+    "static/js/main.ed170d8a.chunk.js"
+  ]
+}
