@@ -1,0 +1,14 @@
+.topTitle {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+  color: rgb(143, 143, 143);
+}
+.topTitle + h1 {
+  text-align: center;
+  font-size: 2.3rem;
+  line-height: 2.5rem;
+  font-weight: 600;
+}

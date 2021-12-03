@@ -1,0 +1,7 @@
+.ableClick {
+  user-select: none;
+  cursor: pointer;
+}
+.ableClick:active {
+  transform: scale(0.9);
+}

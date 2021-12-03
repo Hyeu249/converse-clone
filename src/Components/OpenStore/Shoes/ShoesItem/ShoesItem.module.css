@@ -1,0 +1,136 @@
+.shoesItem {
+  font-family: proxima nova, proxima-nova, Helvetica, Arial, sans-serif;
+  position: relative;
+  width: 25%;
+  height: fit-content;
+  /* background-clip: content-box; */
+  padding: 10px 10px 0 10px;
+  box-sizing: border-box;
+}
+
+.heightImage {
+  height: 23.5vw;
+  background-color: #fff;
+}
+/* shoes image */
+.frontImage {
+  position: relative;
+  width: 100%;
+  user-select: none;
+  cursor: pointer;
+  object-fit: contain;
+  transition: opacity 0.2s linear;
+  z-index: 1;
+}
+.backImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  user-select: none;
+  cursor: pointer;
+  object-fit: contain;
+}
+.frontImage:hover {
+  opacity: 0;
+}
+.shoesItem_heartIcon {
+  position: absolute;
+  top: 30px;
+  left: 18px;
+  width: 20px;
+  z-index: 2;
+  user-select: none;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+.shoesItem_heartIcon:hover {
+  transform: scale(1.5);
+}
+.shoesItem_productName {
+  font-size: 0.95rem;
+  line-height: 1;
+  cursor: pointer;
+}
+.shoesItem_productName:hover {
+  text-decoration: underline;
+}
+.shoesItem_price {
+  padding-top: 5px;
+  font-size: 0.91rem;
+}
+.shoesItem_productGender {
+  padding-top: 3px;
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: #b9b9b9;
+  margin-top: 5px;
+}
+.shoesItem_colorAvailable {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #858585;
+  margin-top: 15px;
+}
+.shoesItem_cart {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  right: 10px;
+  bottom: 25px;
+  background-color: #fff;
+  z-index: 2;
+  user-select: none;
+  cursor: pointer;
+  transition: 0.1s linear;
+  opacity: 0;
+  box-shadow: 0px 1px 3px #cacaca;
+}
+.shoesItem:hover .shoesItem_cart {
+  opacity: 1;
+}
+.shoesItem_cart:hover {
+  background-color: #ececec;
+}
+.shoesItem_cart:active {
+  transform: scale(0.95);
+}
+/* display none tablet low */
+@media (min-width: 740px) and (max-width: 1113px) {
+  .shoesItem {
+    width: 33.33333%;
+    padding: 5px 5px 0 5px;
+  }
+  .shoesItem > :first-child,
+  .heightImage {
+    min-height: 40vw;
+  }
+  .shoesItem_heartIcon {
+    top: 50px;
+    left: 18px;
+    width: 20px;
+  }
+  .shoesItem_cart {
+    right: 10px;
+    bottom: 48px;
+  }
+}
+
+/* display none mobile */
+@media (max-width: 739px) {
+  .shoesItem {
+    width: 50%;
+    padding: 5px 5px 0 5px;
+  }
+  .shoesItem > :first-child,
+  .heightImage {
+    min-height: 60vw;
+  }
+  .shoesItem_heartIcon {
+    top: 25px;
+    left: 11px;
+  }
+  .shoesItem_cart {
+    display: none;
+  }
+}

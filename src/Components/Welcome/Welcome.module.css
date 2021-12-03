@@ -1,0 +1,339 @@
+@font-face {
+  src: url(../../fonts/Swiss\ 721\ Bold\ Outline\ BT.ttf);
+  font-family: SwissBold;
+}
+@font-face {
+  src: url(../../fonts/ArialNova-Bold.ttf);
+  font-family: AriaNova;
+}
+@font-face {
+  src: url(../../fonts//arial.ttf);
+  font-family: Aria;
+}
+.font-0 {
+  font-family: Aria;
+  color: white;
+}
+.font-1 {
+  font-family: SwissBold;
+  color: white;
+}
+.font-2 {
+  font-family: AriaNova;
+  color: white;
+}
+
+/* HEADER */
+#header {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+  animation: example 1s linear;
+}
+
+.converse-img {
+  height: 86px;
+  margin-top: -13px;
+  margin-left: 236px;
+}
+
+/* Select Country & Language + 3 continents */
+.text-header {
+  color: rgb(0, 0, 0);
+  font-size: 19px;
+  display: flex;
+  justify-content: center;
+  height: 95px;
+  align-items: flex-end;
+}
+
+.height-text {
+  display: flex;
+  height: 145px;
+  align-items: flex-end;
+}
+
+.text1 {
+  /* position: relative */
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  right: 70%;
+  transform: translate(50%);
+  color: rgb(0, 0, 0);
+  line-height: 44px;
+  text-align: center;
+}
+
+.text2 {
+  /* position: relative */
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  right: 50%;
+  transform: translate(50%);
+  color: rgb(0, 0, 0);
+  line-height: 44px;
+}
+
+.text3 {
+  /* position: relative */
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  position: absolute;
+  right: 30%;
+  transform: translate(50%);
+  line-height: 44px;
+  text-align: center;
+}
+/* #header {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+  animation: example 1s linear;
+} */
+
+.text-header::before {
+  content: attr(data-text);
+  position: absolute;
+  color: white;
+  font-size: 19px;
+  overflow: hidden;
+  animation: animate 1s linear;
+}
+
+.text1::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  overflow: hidden;
+  animation: animate 1.7s linear;
+}
+
+.text2::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  overflow: hidden;
+  animation: animate 1.7s linear;
+}
+
+.text3::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  overflow: hidden;
+  animation: animate 1.7s linear;
+}
+@keyframes animate {
+  0%,
+  75% {
+    color: black;
+  }
+  100% {
+    color: white;
+  }
+}
+@keyframes nav-load {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes example {
+  0% {
+    background-color: rgb(0, 0, 0);
+  }
+  80% {
+    background-color: rgb(233, 233, 233);
+  }
+  100% {
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+/* TEXT-OF-COUNTRY */
+.text-country {
+  position: relative;
+  height: 465px;
+  margin-top: 30px;
+}
+/* SON-OF-NORTH */
+.son-of-north {
+  position: absolute;
+  right: 70%;
+  transform: translate(50%);
+  /* line-height: 44px; */
+  text-align: center;
+}
+.lane1-of-north {
+  /* display: block  ; */
+  width: 100%;
+  /* height: 100%; */
+  color: white;
+  animation: animate 2s linear;
+}
+.lane2-of-north {
+  margin-top: 12px;
+  display: block;
+}
+.son2_3-of-north {
+  display: inline;
+  animation: animate 2.3s linear;
+}
+
+/* SON-OF-EUROPE */
+.son-of-europe {
+  text-align: center;
+  position: absolute;
+  right: 50%;
+  transform: translate(50%);
+}
+.son1_2_3-of-eu {
+  display: inline-block;
+  animation: animate 2s linear;
+}
+.lane2-of-eu {
+  margin-top: 12px;
+}
+.son4-of-eu {
+  text-decoration-line: none;
+  animation: animate 2.3s linear;
+}
+.lane3-of-eu {
+  margin-top: 12px;
+}
+.son5_6-of-eu {
+  display: inline;
+  animation: animate 2.6s linear;
+}
+.lane4-of-eu {
+  margin-top: 12px;
+}
+.son7_8-of-eu {
+  display: inline;
+  animation: animate 2.9s linear;
+}
+.lane5-of-eu {
+  margin-top: 12px;
+}
+.son9-of-eu {
+  animation: animate 3.2s linear;
+}
+.lane6-of-eu {
+  margin-top: 12px;
+}
+.son10_11-of-eu {
+  display: inline;
+  animation: animate 3.5s linear;
+}
+.lane7-of-eu {
+  margin-top: 12px;
+}
+.son12-of-eu {
+  animation: animate 3.8s linear;
+}
+.lane8-of-eu {
+  margin-top: 12px;
+}
+.son13-of-eu {
+  animation: animate 4.1s linear;
+}
+.lane9-of-eu {
+  margin-top: 12px;
+}
+.son14_15-of-eu {
+  display: inline;
+  animation: animate 4.4s linear;
+}
+.lane10-of-eu {
+  margin-top: 12px;
+}
+.son16_17-of-eu {
+  display: inline;
+  animation: animate 4.7s linear;
+}
+.lane11-of-eu {
+  margin-top: 12px;
+}
+.son18_19-of-eu {
+  display: inline;
+  animation: animate 5s linear;
+}
+.lane12-of-eu {
+  margin-top: 12px;
+}
+.son20_21-of-eu {
+  display: inline;
+  animation: animate 5.3s linear;
+}
+.lane13-of-eu {
+  margin-top: 12px;
+}
+.son22-of-eu {
+  animation: animate 5.6s linear;
+}
+.lane14-of-eu {
+  margin-top: 12px;
+}
+.son23-of-eu {
+  animation: animate 5.9s linear;
+}
+.lane15-of-eu {
+  margin-top: 12px;
+}
+.son24-of-eu {
+  animation: animate 6.2s linear;
+}
+/* SON-OF-ASIA */
+.son-of-asia {
+  /* position: relative */
+  position: absolute;
+  right: 30%;
+  transform: translate(50%);
+  text-align: center;
+}
+.son1-of-asia {
+  animation: animate 2s linear;
+}
+.lane2-of-asia {
+  margin-top: 12px;
+}
+.son2_3-of-asia {
+  display: inline;
+  animation: animate 2.3s linear;
+}
+.lane3-of-asia {
+  margin-top: 12px;
+}
+.son4_5-of-asia {
+  /* position: relative; */
+  animation: animate 2.6s linear;
+}
+
+/* a / hover-underline / country */
+
+.hover-underline:hover {
+  text-decoration-line: underline;
+  color: rgb(179, 179, 179);
+}
+a {
+  color: black;
+}
+.son4_5-of-asia {
+  display: inline;
+}
