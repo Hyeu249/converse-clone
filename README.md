@@ -1,3 +1,3 @@
 # converse-clone
 
--website: https://hyeu249.github.io/converse-clone/#/vn
+-website: https://hyeu249.github.io/converse-clone/
